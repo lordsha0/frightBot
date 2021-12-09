@@ -17,10 +17,10 @@ end
 
 # watch list command
 bot.command :watchlist do |action|
-    action.respond("""```
-        to watch:
-        - The Witches 1990
-         ```""")
+    action.respond("""
+        ```to watch:
+        - The Witches 1990```
+         """)
 end
 
 # basic help command
