@@ -18,18 +18,22 @@ end
 # watch list command
 bot.command :watchlist do |action|
     action.respond("""
-        ```to watch:
+        ```
         - The Witches 1990```
          """)
 end
+
+#
+bot.command :
 
 # basic help command
 bot.command :help do |action|
     action.respond("""
         I can help you with all the commands I have:
-        -help  : shows the list of commands
-        -ping  : makes me respond 'hey'
+        -help : shows the list of commands
+        -ping : makes me respond 'hey'
         -witch : gives you a lofi music video for witches
+        -watchlist : gives you a list of horror movies to watch
     """)
 end
 
